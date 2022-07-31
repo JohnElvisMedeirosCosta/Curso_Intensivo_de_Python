@@ -12,9 +12,9 @@ while sandwich_orders:
     while 'pastrami' in sandwich_orders:
         sandwich_orders.remove('pastrami')
 
-    print("Preparei o seu sanduiche de " + sandwich_orders[-1].title())
+    print("Preparei o seu sanduíche de " + sandwich_orders[-1].title())
     finished_sandwiches.append(sandwich_orders.pop())
 
-print("\nSanduiches preparados: ")
+print("\nSanduíches preparados: ")
 for sandwich in finished_sandwiches:
     print("\t" + sandwich.title())
