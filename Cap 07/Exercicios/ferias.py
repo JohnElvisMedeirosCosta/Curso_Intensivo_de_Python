@@ -9,7 +9,6 @@ while polling_active:
     responses[name] = message
 
     encerrar = input("Gostaria de encerrar a pesquisa? (y/n)")
-
     if encerrar == 'y':
         polling_active = False
 
